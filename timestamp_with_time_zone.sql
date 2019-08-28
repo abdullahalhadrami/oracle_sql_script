@@ -1,4 +1,4 @@
--- to check the default of timestamp with time zone format [DD-MON-RR HH.MI.SSXFF AM TZR]
+-- to check the default format of timestamp with time zone data type [DD-MON-RR HH.MI.SSXFF AM TZR]
 SELECT value
 FROM V$NLS_PARAMETERS
 WHERE parameter = 'NLS_TIMESTAMP_TZ_FORMAT';
